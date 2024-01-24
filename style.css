@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: 20px;
+    font-family: 'Oleo Script', system-ui;
+}
+
+body {
+    background-color: #f2f2f2; 
+}
+
+button {
+    transition: transform 500ms ease;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.top-bar {
+    color: #f2f2f2;
+    height: 5vh;
+    width: 100vw;
+    background-color: #6C9A8B;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    height: 2.5vh;
+    width: 2.5vh;
+    position: absolute;
+    left: 5%;
+    font-size: 15px;
+    color:black;
+}
+
+.top-start {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+    left: 15%;
+    width: 225px;
+}
+
+#contact {
+    justify-self: end;
+}
+
+.top-end {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+    right: 5%;
+    width: 225px;
+}
+
+.top-button {
+    background-color: #f2f2f2;
+    color: #6C9A8B;
+    border: 0px solid white;
+    border-radius: 10px;
+    width: 85px;
+    justify-self: end;
+}
