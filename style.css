@@ -76,7 +76,7 @@ a:hover {
     justify-self: end;
 }
 
-.container {
+/* .container {
     height: 100vh;
     width: 100%;
     display: flex;
@@ -84,9 +84,9 @@ a:hover {
     justify-content: center;
     background-color: #6C9A8B;
     column-gap: 30px;
-}
+} */
 
-.form {
+/* .form {
     position: absolute;
     max-width: 430px;
     width: 100%;
@@ -243,4 +243,4 @@ a.google span{
     .form{
         padding: 20px 10px;
     }
-}
+} */
