@@ -1,0 +1,16 @@
+{
+  "name": "software-engineering-project",
+  "version": "1.0.0",
+  "description": "ItzRitz404 UP2115893\r OguzGurv2 UP2157044\r Daviddht UP2049418\r jeromee1406 UP2064796\r aabdukabirov UP2158827",
+  "main": "account.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
