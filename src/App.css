@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+
+:root {
+  --primary: #6C9A8B;
+  --secondary: #f2f2f2;
+}
+
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: 'Oleo Script', system-ui;
+  font-size: 20px;
+  background-color: var(--secondary);
+  color: var(--primary);
+}
+
+button {
+  transition: transform 500ms ease;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.top-bar {
+  color: var(--secondary);
+  height: 10vh;
+  width: 100%;
+  background-color: var(--primary);
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+  height: 7.5vh;
+  width: 7.5vh;
+  position: absolute;
+  left: 5%;
+  font-size: 15px;
+  color: black;
+}
+
+.top-start {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: absolute;
+  left: 15%;
+  width: 225px;
+}
+
+#contact {
+  justify-self: end;
+}
+
+.top-end {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: absolute;
+  right: 5%;
+  width: 225px;
+}
+
+.top-button {
+  background-color: var(--secondary);
+  color: var(--primary);
+  border: 0px solid white;
+  border-radius: 10px;
+  width: 85px;
+  justify-self: end;
+  font-size: 20px;
+  font-family: 'Oleo Script', system-ui;
+}
+
+#intro {
+  height: 95vh;
+}
+
+#about-us {
+  border: 2px solid red;
+}
+
+#contact-us {
+  border: 2px solid black;
+}
