@@ -9,8 +9,8 @@
   text-align: center;
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
   font-family: 'Oleo Script', system-ui;
+  font-size: 20px;
   background-color: var(--secondary);
   color: var(--primary);
 }
@@ -30,7 +30,7 @@ a:hover {
 
 .top-bar {
   color: var(--secondary);
-  height: 5vh;
+  height: 10vh;
   width: 100vw;
   background-color: var(--primary);
   display: flex;
@@ -38,8 +38,8 @@ a:hover {
 }
 
 #logo {
-  height: 2.5vh;
-  width: 2.5vh;
+  height: 7.5vh;
+  width: 7.5vh;
   position: absolute;
   left: 5%;
   font-size: 15px;
@@ -68,9 +68,11 @@ a:hover {
 
 .top-button {
   background-color: var(--secondary);
-  color: #6C8A8B;
+  color: var(--primary);
   border: 0px solid white;
   border-radius: 10px;
   width: 85px;
   justify-self: end;
+  font-size: 20px;
+  font-family: 'Oleo Script', system-ui;
 }
