@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./LoginSignup.css";
 
 const LoginSignup = () => {
@@ -8,7 +8,7 @@ const LoginSignup = () => {
     <div className="body">
       <div className="container">
         <div className="header">
-          <div className="text">action</div>
+          <div className="text">{action}</div>
           <div className="underline"></div>
         </div>
         <div className="inputs">
