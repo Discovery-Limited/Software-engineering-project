@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <div class="top-bar">
-        <img rel="icon" href="logo.svg" />
+        <img id="logo" alt="logo" src="logo"/>
         
         <div class="top-start">
             <a id="about">About Us</a>
