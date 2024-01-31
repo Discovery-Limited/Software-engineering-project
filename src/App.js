@@ -17,6 +17,9 @@ function App() {
             <button onclick="window.location.href = 'AccountPage.html';" id="sign-in" class="top-button">Sign In</button>
         </div>
       </div>
+      <section id="intro"></section>
+      <section id="about-us"></section>
+      <section id="contact-us"></section>
     </div>
   );
 }
