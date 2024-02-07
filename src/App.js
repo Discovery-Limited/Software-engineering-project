@@ -1,6 +1,5 @@
 import './App.css';
 import logo from './assests/logo.svg';
-import contactBG from './assests/contactBG.jpg';
 
 function App() {
   return (
@@ -23,7 +22,7 @@ function App() {
       <section id="contact-us">
         <h1 id='contact-us-heading'>Contact Us</h1>
     
-        <div id='email-list'>By Email<br />
+        <div id='email-list' class='contact-box'>By Email<br />
           David - up2049418@myport.ac.uk<br />
           Oguz - up2157044@myport.ac.uk<br />
           Hritik - up2115893@myport.ac.uk<br />
@@ -32,7 +31,7 @@ function App() {
           Tobias - up2079666@myport.ac.uk
         </div>
         
-        <div id='phone-list'>By Phone<br />
+        <div id='phone-list' class='contact-box'>By Phone<br />
           +44000000001<br />
           +44000000002<br />
           +44000000003<br />

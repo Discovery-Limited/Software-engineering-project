@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
 
 :root {
-  --primary: #6C9A8B;
-  --secondary: #f2f2f2;
+  --background: #1e1e1e;
+  --text: #ffffff;
+  --primary: #333333;
+  --secondary: #6883BA;
 }
 
 .App {
@@ -11,8 +13,8 @@
   padding: 0;
   font-family: 'Oleo Script', system-ui;
   font-size: 20px;
-  background-color: var(--secondary);
-  color: var(--primary);
+  background-color: var(--primary);
+  color: var(--text);
 }
 
 button {
@@ -34,7 +36,7 @@ a:hover {
 }
 
 .top-bar {
-  color: var(--secondary);
+  color: var(--text);
   height: 10vh;
   width: 100%;
   background-color: var(--primary);
@@ -73,7 +75,7 @@ a:hover {
 
 .top-button {
   background-color: var(--secondary);
-  color: var(--primary);
+  color: var(--text);
   border: 0px solid white;
   border-radius: 10px;
   width: 85px;
@@ -127,7 +129,7 @@ a:hover {
   top: 230%
 }
 
-#phone-list:hover {
+.contact-box:hover {
   transform: scale(1.1);
 }
 
