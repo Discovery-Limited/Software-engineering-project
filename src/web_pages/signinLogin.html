@@ -1,0 +1,131 @@
+<!-- <!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Account</title>
+    <meta name="sign up or login" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="LoginSignup.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="text" id="action"></div>
+            <div class="underline"></div>
+        </div>
+        <div class="inputs">
+            <div class="input" id="nameInput">
+                <input type="text" placeholder="Name" />
+            </div>
+            <div class="input">
+                <input type="email" placeholder="Email" />
+            </div>
+            <div class="input">
+                <input type="password" placeholder="Password" />
+            </div>
+        </div>
+        <div class="forgot-password">
+            Forgot Password? <span>Click here!</span>
+        </div>
+        <div class="submit-container">
+            <div class="submit gray" onclick="setAction('Sign up')">Sign-up</div>
+            <div class="submit" onclick="setAction('Login')">Login</div>
+        </div>
+    </div>
+
+    <script>
+        function setAction(action) {
+            document.getElementById('action').textContent = action;
+            if (action === 'Login') {
+                document.getElementById('nameInput').style.display = 'none';
+            } else {
+                document.getElementById('nameInput').style.display = 'block';
+                document.getElementById('forgot-password').style.display = 'block';
+            }
+        }
+    </script>
+
+    
+</body>
+
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Account</title>
+    <meta name="sign up or login" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="LoginSignup.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="text" id="action">Login</div>
+            <div class="underline"></div>
+        </div>
+        <div class="inputs">
+            <div id="nameInput" class="input" style="display:none;">
+                <input type="text" placeholder="Name" />
+            </div>
+
+            <div class="input">
+                <input type="email" placeholder="Email" />
+            </div>
+            <div class="input">
+                <input type="password" placeholder="Password" />
+            </div>
+        </div>
+        <div class="forgot-password" style="display:none;">
+            Forgot Password? <span>Click here!</span>
+        </div>
+        <div class="submit-container">
+            <div class="submit" id="signUpButton">Sign-up</div>
+            <div class="submit" id="loginButton">Login</div>
+        </div>
+    </div>
+
+    <script>
+        function setAction(action) {
+            document.getElementById('action').textContent = action;
+            var nameInput = document.getElementById('nameInput');
+            var forgotPassword = document.querySelector('.forgot-password');
+
+            if (action === 'Login') {
+                nameInput.style.display = 'none';
+                forgotPassword.style.display = 'block';
+            } else {
+                nameInput.style.display = 'block';
+                forgotPassword.style.display = 'none';
+            }
+        }
+
+        document.getElementById('signUpButton').addEventListener('click', function () {
+            setAction('Sign Up');
+            document.getElementById('signUpButton').classList.add('gray');
+            document.getElementById('loginButton').classList.remove('gray');
+        });
+
+        document.getElementById('loginButton').addEventListener('click', function () {
+            setAction('Login');
+            document.getElementById('loginButton').classList.add('gray');
+            document.getElementById('signUpButton').classList.remove('gray');
+        });
+    </script>
+</body>
+
+
+</html> -->
+
+
+

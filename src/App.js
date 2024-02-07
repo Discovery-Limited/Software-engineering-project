@@ -1,12 +1,5 @@
 import './App.css';
 import logo from './assests/logo.svg';
-import LoginSignup from './web_pages/LoginSignup';
-// import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-// import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import { BrowserRouter as Router, Routes, Route, Link, useNavigate } from 'react-router-dom';
-
-
-
 
 function App() {
   const navigate = useNavigate();
@@ -39,7 +32,6 @@ function App() {
           <Route path="/web_pages/LoginSignup" element={<LoginSignup />} />
         </Routes>
       </div>
-    // </Router>
   );
 }
 
