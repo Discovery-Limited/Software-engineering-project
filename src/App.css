@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
 
 :root {
-  --primary: #6C9A8B;
+  --primary: #6c9a8b;
   --secondary: #f2f2f2;
 }
 
@@ -9,7 +9,7 @@
   text-align: center;
   margin: 0;
   padding: 0;
-  font-family: 'Oleo Script', system-ui;
+  font-family: "Oleo Script", system-ui;
   font-size: 20px;
   background-color: var(--secondary);
   color: var(--primary);
@@ -79,15 +79,85 @@ a:hover {
   width: 85px;
   justify-self: end;
   font-size: 20px;
-  font-family: 'Oleo Script', system-ui;
+  font-family: "Oleo Script", system-ui;
 }
 
 #intro {
   height: 95vh;
 }
 
+body,
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
 #about-us {
-  border: 2px solid red;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  background: url("./assests/about-us.jpg") no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.container {
+  padding-top: 100px;
+  font-family: "Helvetica Neue", sans-serif;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.title,
+.description,
+.btn-main {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.scroll-animation.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.title {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-main {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color: #0056b3;
+  color: white;
+  transition: background-color 0.3s ease, transform 0.3s ease, scale 0.3s ease;
+  font-size: 1.1em;
+}
+
+.btn-main:hover {
+  background-color: #003d7a;
+  transform: scale(1.1);
+}
+
+#about-us:hover {
+  transform: scale(1.03);
 }
 
 #contact-us {
