@@ -91,5 +91,44 @@ a:hover {
 }
 
 #contact-us {
-  border: 2px solid black;
+  font-size: 40px;
+  border: 2px solid blue;
+  background-image: url('./assests/contactBG.jpg');
+  background-size: cover;
 }
+
+#contact-us-heading {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 50vh;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#email-list {
+  font-size: 30px;
+  width: 70vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  left: 10%;
+  top: 230%;
+}
+
+#email-list:hover {
+  transform: scale(1.1);
+}
+
+#phone-list {
+  font-size: 30px;
+  width: 70vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  left: 60%;
+  top: 230%
+}
+
+#phone-list:hover {
+  transform: scale(1.1);
+}
+
+
